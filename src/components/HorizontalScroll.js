@@ -41,4 +41,5 @@ const HorizontalScroll = ({ data, bodyParts, setBodyPart, bodyPart }) => (
     ))}
   </ScrollMenu>
 );
+
 export default HorizontalScroll;

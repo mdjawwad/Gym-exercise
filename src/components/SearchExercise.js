@@ -54,7 +54,7 @@ const SearchExercise = ({ setExercises, bodyPart, setBodyPart }) => {
         </Button>
       </Box>
       <Box sx={{ position: 'relative', width: '100%', p: '20px' }}>
-        {/* <HorizontalScroll data={bodyParts} bodyParts setBodyPart={setBodyPart} bodyPart={bodyPart} /> */}
+        <HorizontalScroll data={bodyParts} bodyParts setBodyPart={setBodyPart} bodyPart={bodyPart} />
       </Box>
     </Stack>
   );
